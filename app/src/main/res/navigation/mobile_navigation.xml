@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.carsharing.ui.dashboard.MapFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_history_of_rentals"
+        android:name="com.example.carsharing.ui.history.HistoryOfRentalsFragment"
+        android:label="@string/history_of_rentals"
+        tools:layout="@layout/fragment_history_of_rentals" />
+
+    <fragment
+        android:id="@+id/nav_change_email"
+        android:name="com.example.carsharing.ui.change_email.ChangeEmailFragment"
+        android:label="@string/change_email"
+        tools:layout="@layout/fragment_change_email" />
+
+    <fragment
+        android:id="@+id/nav_change_password"
+        android:name="com.example.carsharing.ui.change_password.ChangePasswordFragment"
+        android:label="@string/change_password"
+        tools:layout="@layout/fragment_change_password" />
+
+    <fragment
+        android:id="@+id/nav_payment_methods"
+        android:name="com.example.carsharing.ui.payment_methods.PaymentMethodsFragment"
+        android:label="@string/payment_menthods"
+        tools:layout="@layout/fragment_payment_methods" />
+
+    <fragment
+        android:id="@+id/nav_reservation"
+        android:name="com.example.carsharing.ui.dashboard.ReservationFragment"
+        android:label="@string/reservation"
+        tools:layout="@layout/fragment_reservation" />
+
+    <fragment
+        android:id="@+id/nav_rent"
+        android:name="com.example.carsharing.ui.dashboard.RentFragment"
+        android:label="@string/rent"
+        tools:layout="@layout/fragment_rent" />
+</navigation>

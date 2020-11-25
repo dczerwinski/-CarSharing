@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name" translatable="false">CarSharing</string>
+    <string name="email" translatable="false">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Sign I</string>
+    <string name="signUp">Sing Up</string>
+    <string name="reEnterPassword">Re-enter password</string>
+    <string name="back">Back</string>
+    <string name="passwordsDiffer">Passwords are not the same!</string>
+    <string name="mapButton">Map</string>
+    <string name="place_holder" translatable="false">Place Holder</string>
+    <string name="email_not_verified">Email is not verified! Please verify your email first.</string>
+    <string name="send_verification_email_again">Send verification email again.</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="password_is_too_weak">Password is too weak!</string>
+    <string name="authentication_success">Authentication success.</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="history_of_rentals">History of rentals</string>
+    <string name="change_email">Change e-mail</string>
+    <string name="change_password">Change password</string>
+    <string name="payment_menthods">Payment methods</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="sign_out">Sign out</string>
+    <string name="frontImageText">Add image with front of the driving license</string>
+    <string name="backImageText">Add image with back of driving license</string>
+    <string name="type_new_password_here">Type new password here</string>
+    <string name="save">Save</string>
+    <string name="attentionChangeEmail">Attention! If you change your email, you will be signed out and you will have to verify your new e-mail address before you sign in again.</string>
+    <string name="authentication_failed">Authentication failed.</string>
+    <string name="dialogTitle">Verification failed.</string>
+    <string name="type_new_e_mail_here">Type new e-mail here</string>
+    <string name="current_email">"Current e-mail: "</string>
+    <string name="wrong_email">"Given email is invalid! "</string>
+    <string name="email_has_been_changed">" E-mail has been changed! You have been logged out, to log back in please verify the new email."</string>
+    <string name="type_old_password_here">Type old password here</string>
+    <string name="type_new_password_here_again">Re-type new password here</string>
+    <string name="empty_fields">Not all fields have been completed!</string>
+    <string name="password_has_been_changed">Password has been changed!</string>
+    <string name="something_went_wrong">Somethings went wrong</string>
+    <string name="wrong_password">The entered password is incorrect</string>
+    <string name="card_number">Card Number</string>
+    <string name="add_payment_method">Add this card</string>
+    <string name="complete_all_fields">" Please complete all fields correctly!"</string>
+    <string name="added_card">Card has been added!</string>
+    <string name="resetPassword">Reset password</string>
+    <string name="type_your_emil_here">Type your e-mail here</string>
+    <string name="reset_password_info">An e-mail with instructions on how to reset the password will be sent to the e-mail address provided.</string>
+    <string name="reset_password_dialog_title">Reset password</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_email_send">An e-mail with instructions on resetting the password has been sent to the e-mail address provided.</string>
+    <string name="add_photo">Add driver license photo</string>
+    <string name="please_add_photo">Please add photo of driver license first!</string>
+    <string name="sign_up_success">Account successfully created!</string>
+    <string name="attention_sign_up">" Fill in all fields and add a photo of your driving license!"</string>
+    <string name="can_not_add_card">Can not add card! Please, check your internet connection and try again.</string>
+    <string name="card" translatable="false">**** **** **** %1$s</string>
+    <string name="main_card">Main payment method</string>
+    <string name="not_main_card">Additional payment method</string>
+    <string name="edit">Edit</string>
+    <string name="card_removed">Card removed</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="book_it">Book it</string>
+    <string name="model_name">Model: %1$s</string>
+    <string name="fuel_level">Fuel level: %d%%</string>
+    <string name="range_of_car">Range: %1$s km</string>
+    <string name="price_of_car">Price: %1$s zł/min  %2$s zł/km</string>
+    <string name="endReservation">End your booking</string>
+    <string name="endRent">End your rent</string>
+    <string name="error">Error</string>
+    <string name="rentAndScanQRCode">Scan the QR code</string>
+    <string name="reservation">Car reservation</string>
+    <string name="rent">Car rent</string>
+    <string name="car_image" translatable="false">Car Image</string>
+    <string name="finished">Finished</string>
+    <string name="canceled">Canceled</string>
+    <string name="paying">Paying</string>
+    <string name="wrong_qr_code">Wrong QR code! Please try again</string>
+    <string name="show_route">show route</string>
+    <string name="summary">Rent summary</string>
+    <string name="pay_summary">Payment summary</string>
+    <string name="price_time">Driving time fee: %1$s</string>
+    <string name="price_distance">Distance fee: %1$s</string>
+    <string name="price_sum">Sum: %1$s</string>
+    <string name="time">Time: %1$s</string>
+    <string name="distance">Distance: %1$s</string>
+    <string name="qr_code_info">Scan the QR code from the car to rent it or complete the booking</string>
+    <string name="current_distance">Current distance</string>
+    <string name="price">Current price: %1$s</string>
+    <string name="time_text_view">"Current time: %1$s"</string>
+    <string name="current_email_info">Current e-mail:</string>
+    <string name="no_payment_methods">Please add a payment method first!</string>
+    <string name="area_error">You are not in the return area! To return a car, you must be in the return area!</string>
+</resources>

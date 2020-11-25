@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#670EE4</color>
+    <color name="colorPrimaryLight">#751FEF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#C8A3F6</color>
+    <color name="colorAccentLighter">#ECE0FD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="almostWhite">#C1C0C0</color>
+    <color name="black">#000000</color>
+    <color name="grey">#808080</color>
+    <color name="road_color">#6200EE</color>
+</resources>

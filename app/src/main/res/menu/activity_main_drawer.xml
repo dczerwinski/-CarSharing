@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/icon_location"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_history_of_rentals"
+            android:icon="@drawable/icon_car"
+            android:title="@string/history_of_rentals" />
+        <item
+            android:id="@+id/nav_change_email"
+            android:icon="@drawable/icon_email"
+            android:title="@string/change_email" />
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/icon_lock"
+            android:title="@string/change_password" />
+        <item
+            android:id="@+id/nav_payment_methods"
+            android:icon="@drawable/icon_credit_card"
+            android:title="@string/payment_menthods" />
+    </group>
+</menu>

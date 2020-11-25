@@ -1,0 +1,37 @@
+val car = Car(
+            "AUDI RS3",
+            100,
+            1.6F,
+            200,
+            false,
+            52.246144,
+            20.900973)
+        val car1 = Car(
+            "BMW M6",
+            100,
+            1.5F,
+            250,
+            false,
+            52.246636,
+            20.899873)
+        val car2 = Car(
+            "AUDI RS6",
+            100,
+            1.8F,
+            300,
+            false,
+            52.246144,
+            20.898816)
+        val map = HashMap<String, Car>()
+        map["0323c91a-1d99-461c-baf4-e10942751307"] = car
+        map["8102551b-6d4a-4f7a-926a-2c0df5066332"]= car1
+        map["8cf948c5-e5cd-487d-b531-104b0dab28e1"] = car2
+        FirebaseDatabase.getInstance()
+            .getReference("cars")
+            .setValue(map)
+            .addOnSuccessListener {
+                Log.d(TAG, "OKII")
+            }
+            .addOnFailureListener {
+                Log.e(TAG, "NOT OKII: $it")
+            }
